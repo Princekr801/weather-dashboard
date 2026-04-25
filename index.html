@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Dashboard | Prince Kumar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <div class="card">
+
+      <div class="header">
+        <h1>🌦 Weather Dashboard</h1>
+        <p class="subtitle">Real-time weather insights</p>
+      </div>
+
+      <div class="search-box">
+        <input type="text" id="city" placeholder="Search for a city (e.g. Mumbai)">
+        <button onclick="getWeather()">Search</button>
+      </div>
+
+      <div id="weather-result">
+        <p class="empty">🔍 Enter a city to check weather</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <h3 id="popup-title"></h3>
+      <p id="popup-text"></p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
