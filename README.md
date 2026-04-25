@@ -29,3 +29,8 @@ https://prince-weather-dashboard.netlify.app
 - Handling user input and validation
 - Designing clean UI/UX
 - Deploying projects using Netlify
+- 
+## 📌 Future Improvements
+- 5-day forecast feature
+- Auto-detect location
+- Dark/Light mode toggle
