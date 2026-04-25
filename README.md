@@ -17,7 +17,9 @@ A modern and interactive weather dashboard built using HTML, CSS, and JavaScript
 - OpenWeather API
 
 ## 📸 Screenshots
-(Add screenshots here after uploading)
+![Home](home.png)
+![Result](result.png)
+![Popup](popup.png)
 
 ## 🔗 Live Demo
 https://prince-weather-dashboard.netlify.app
